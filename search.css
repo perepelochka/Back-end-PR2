@@ -1,0 +1,49 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-minimal-background_23-2149010465.jpg?w=1380&t=st=1677095573~exp=1677096173~hmac=2b39347beda0674c74fe5ac61e1344b589bb10830ba3d6166278e18f50e2b077");
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+  }
+h1{
+    color: #CD5C5C;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(255,255,255,0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    margin-top: 20px;
+}
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 300px;
+}
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #CD5C5C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+h2{
+    color: #CD5C5C;
+    text-align: center;
+}
